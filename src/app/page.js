@@ -1,13 +1,13 @@
-import Image from 'next/image'
-import Header from './components/Header'
+import { Header, Hero } from "./components";
+
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main>
-
+      <main className="bg-[#F4F6F8] pt-[87px]">
+        <Hero />
       </main>
     </>
-  )
+  );
 }
