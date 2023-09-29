@@ -1,7 +1,25 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Sora, Work_Sans, Sen } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ 
+  subsets: ['latin'],
+  variable: '--font-inter', 
+})
+
+const sora = Sora({ 
+  subsets: ['latin'],
+  variable: '--font-sora', 
+})
+
+const work_sans = Work_Sans({ 
+  subsets: ['latin'],
+  variable: '--font-work-sans', 
+})
+
+const sen = Sen({ 
+  subsets: ['latin'],
+  variable: '--font-sen', 
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -10,8 +28,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${inter.variable} ${sora.variable} ${work_sans.variable} ${sen.variable}`}>
+      <body className="font-inter">{children}</body>
     </html>
   )
 }
