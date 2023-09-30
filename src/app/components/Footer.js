@@ -31,7 +31,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-Primary px-20 md:px-[130px] py-[98px] flex flex-col items-center md:flex-row md:items-start sm:gap-20 sm:justify-between w-full">
+    <footer className="bg-Primary px-5 md:px-[130px] py-[98px] flex flex-col items-center md:flex-row md:items-start sm:gap-20 sm:justify-between w-full">
       <div>
         <Image
           src="/footer-logo.svg"

@@ -3,12 +3,12 @@ import Image from "next/image"
 
 const Features = () => {
   return (
-    <section className="bg-white flex flex-col justify-center items-center gap-[64px] py-20 px-[100px] mt-14 mb-[70px]">
+    <section className="bg-white flex flex-col justify-center items-center gap-[64px] py-20 px-5 md:px-[100px] mt-14 mb-[70px]" id="features">
         <div className="text-center">
             <h2 className={`${styles.heading}`}>Features</h2>
             <p className={`${styles.paragraph}`}>Key Highlights of Our Extension</p>
         </div>
-        <div className="flex justify-center items-center gap-[56px]">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-[56px]">
            <div className="flex flex-col items-center gap-12">
                 <div className="flex items-start gap-4">
                     <Image src="/record.svg" alt="Feature 1" width={48} height={48} style={{width: "auto", height: "auto"}}/>

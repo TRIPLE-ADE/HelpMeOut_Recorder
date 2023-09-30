@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const HowItWorks = () => {
   return (
-    <section className="bg-white flex flex-col justify-center items-center gap-[59px] px-[100px] pt-[103px] pb-[118px]">
+    <section className="bg-white flex flex-col justify-center items-center gap-[59px] px-5 md:px-[100px] pt-[103px] pb-[118px]" id="works">
       <h2 className={`${styles.heading}`}>How it works</h2>
-      <div className="flex flex-col sm:flex-row gap-[83px]">
+      <div className="flex flex-col md:flex-row gap-[83px]">
         <div className="max-w-[358px] flex flex-col items-center gap-7">
         <div className="flex flex-col justify-center items-center text-center">
             <p className="font-sans text-[32px] font-bold leading-[38.73px] text-center w-[67px] h-[67px] text-white bg-Primary px-[23px] py-[14px] border rounded-[60px]">
