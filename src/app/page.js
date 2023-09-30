@@ -1,4 +1,4 @@
-import { Header, Hero } from "./components";
+import { Header, Hero, Features, HowItWorks} from "./components";
 
 
 export default function Home() {
@@ -7,6 +7,8 @@ export default function Home() {
       <Header />
       <main className="bg-[#F4F6F8] pt-[87px]">
         <Hero />
+        <Features />
+        <HowItWorks />
       </main>
     </>
   );

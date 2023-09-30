@@ -3,8 +3,9 @@ const styles = {
     
     container: "flex flex-col items-center justify-center",
     
-    heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-black xs:leading-[76.8px] leading-[66.8px]",
-    paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
+    heading: "font-sora font-bold text-[40px] leading-[50.4px] text-Secondary",
+    subHeading: "font-sans font-semibold text-[28px] leading-[33.89px]",
+    paragraph: "font-work_sans font-normal text-xl leading-[30.26px] text-[#616163]",
 
     signupBorder: "border border-Secondary h-12 rounded-xl outline-0 flex items-center gap-4 py-[3px] cursor-pointer justify-center md:justify-start",
     formInputGroup: "flex flex-col gap-3",

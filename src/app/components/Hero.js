@@ -3,7 +3,7 @@ import Image from "next/image"
 const Hero = () => {
   return (
     <section className="bg-white md:pr-[51.5px] md:pl-[100px] flex justify-center items-center gap-[14px] pt-[107px] pb-[75.92px]">
-    <div className="flex flex-col gap-12 items-start">
+    <div className="flex flex-col gap-12 items-start max-w-[548px]">
       <div>
         <h1 className="font-sora text-[64px] leading-[64px] text-Secondary font-bold">Show Them Don’t Just Tell</h1>
         <p className="pt-5 font-sans text-xl font-normal text-black text-opacity-75">
@@ -21,9 +21,6 @@ const Hero = () => {
       alt="Hero"
       width={727}
       height={594.08}
-      placeholder="blur"
-      loading="eager"
-      blurDataURL="/hero-image.png"
     />
   </section>
   )
