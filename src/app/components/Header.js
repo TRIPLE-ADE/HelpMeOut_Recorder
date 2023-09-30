@@ -54,8 +54,12 @@ const Header = () => {
         {toggle && (
           <div className="fixed left-0 sm:hidden z-20 w-full min-h-full text-2xl font-bold text-center bg-white font-quicksand top-20 sidebar">
             <ul className=" font-medium font-work_sans leading-[18.77px] text-black flex flex-col justify-center items-center gap-20 min-h-[80vh]">
-              <Link href="#features" onClick={handleModal}>Features</Link>
-              <Link href="#works" onClick={handleModal}>How It Works</Link>
+              <Link href="#features" onClick={handleModal}>
+                Features
+              </Link>
+              <Link href="#works" onClick={handleModal}>
+                How It Works
+              </Link>
               <Link
                 href="/"
                 className="text-Primary font-semibold text-lg leading-[22.68px] font-sora"
@@ -72,3 +76,26 @@ const Header = () => {
 };
 
 export default Header;
+
+export const UserHeader = () => {
+  return (
+    <header className="my-10 md:px-[100px] px-6 py-2 flex justify-between items-center">
+      <Image
+        src="/logo.svg"
+        alt="logo"
+        width={138}
+        height={40}
+        priority
+        style={{ width: "auto", height: "auto" }}
+      />
+      <Image
+        src="/user-info.svg"
+        alt="logo"
+        width={138}
+        height={40}
+        priority
+        style={{ width: "auto", height: "auto" }}
+      />
+    </header>
+  );
+};

@@ -33,3 +33,28 @@ html{
       transform: translateY(0);
     }
   }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 244.43px;
+  margin-top: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
